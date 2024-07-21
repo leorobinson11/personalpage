@@ -1,0 +1,12 @@
+.Planet {
+    position: absolute;
+}
+
+.solarsystem {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border-radius: 250px;
+    border: 1px solid #ccc;
+    overflow: visible;
+  }

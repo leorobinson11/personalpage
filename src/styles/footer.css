@@ -1,0 +1,36 @@
+footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(9, 9, 9);
+}
+
+.footer-content {
+    padding: 60px;
+    margin-left: 30%;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    display:inline-block;
+    line-height: 200%;
+}
+
+.footer-content li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#copywritebox {
+    padding: 50px;
+    border-top: 1px solid rgb(33, 32, 32);
+    text-align: center;
+}
+
+#copywrite {
+    color: white;
+    font-size: 20px;
+}

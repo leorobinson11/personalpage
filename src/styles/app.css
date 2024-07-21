@@ -1,0 +1,39 @@
+html {
+  text-align: center;
+  background-color: #282c34;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 100px;
+}
+
+#banner {
+  margin: 60px;
+  background-color: #14161a;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: left;
+}
+
+.solarsystem {
+  position: relative;
+  left: 290px;
+}
+
+.banner-title {
+  position: absolute;
+  left: 90px;
+  top: 300px;
+  width: 600px;
+  height: min-content;
+}
+
+.banner-title h1 {
+  font-size: 60px;
+}
