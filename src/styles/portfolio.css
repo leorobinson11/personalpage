@@ -4,9 +4,16 @@
     justify-content: space-between; /* Adjusts spacing between the boxes */
     align-items: center; /* Aligns items vertically in the center */
     padding: 20px;
-    transition: transform 0.3s, box-shadow 0.3s;
-    color: white;
+    color: rgb(255,255,255,0.2);
+    transition: transform 0.3s, box-shadow 0.3s, color 0.3s;
 }
+
+.prodject-container:hover {
+    transform: translateY(-10px);
+    color: rgb(255,255,255,1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 .project {
     background-color: rgb(17, 15, 15);
     border: 1px solid #ddd;
@@ -17,15 +24,14 @@
     width: 60%;
 }
 
-.prodject-container:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
 .project-image {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+}
+
+.prodject-data {
+    width: 30%;
 }
 
 .project-title {
@@ -35,4 +41,9 @@
 
 .project-description {
     font-size: 1.5em;
+}
+
+.githublogo {
+    font-size: 3.5em;
+    color: rgb(0, 0, 0);
 }
