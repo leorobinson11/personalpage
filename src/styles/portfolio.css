@@ -6,6 +6,7 @@
     padding: 20px;
     color: rgb(255,255,255,0.2);
     transition: transform 0.3s, box-shadow 0.3s, color 0.3s;
+    min-height: 300px;
 }
 
 .prodject-container:hover {
@@ -43,7 +44,7 @@
     font-size: 1.5em;
 }
 
-.githublogo {
+.logo {
     font-size: 3.5em;
     color: rgb(0, 0, 0);
 }

@@ -11,10 +11,6 @@ const Header = () => {
                     </li>
 
                     <li className="nav-item">
-                        <a href="#experience" className="nav-link"> Experience </a>
-                    </li>
-
-                    <li className="nav-item">
                         <a href="#socials" className="nav-link"> Socials </a>
                     </li>
 

@@ -1,12 +1,14 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './styles/app.css';
 import Header from './components/header';
 import Footer from './components/footer';
 import TypingEffect from './components/typingtext';
 import Solarsystem from './components/solarsystem';
 import Portfolio from './components/portfolio';
-import Experience from './components/experience';
+import Socials from './components/socials';
+import Projects from "./components/projects";
 
-function App() {
+const Home = () => {
   return (
     <main className="App">
       <section id="banner">
@@ -22,13 +24,25 @@ function App() {
         <Portfolio />
       </section>
 
-      <section id="experience">
-        <Experience />
+      <section id="socials">
+        <Socials />
       </section>
 
       <Footer />
     </main>
   );
-}
+};
+
+const App = () => {
+  return (
+    <BrowserRouter>
+      <Routes>
+          <Route index element={<Home />} />
+          <Route path="projects/:index" element={<Projects />} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
+
 
 export default App;
