@@ -9,15 +9,15 @@ const Footer = () => {
                     <div class="links">
                         <ul>
                             <li><a href="/">Home</a></li>
-                            <li><a href="/description">Service</a></li>
-                            <li><a href="/contact">Contact</a></li>
-                            <li><a href="/blog">News</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#socials">Socials</a></li>
+                            <li><a href="#socials">Contact</a></li>
                         </ul>
                         <ul>
-                            <li><a href="email@gmail.com"> email@gmail.com </a></li>
-                            <li><a href="tel:+number"> +number </a></li>
-                            <li><a href="facebook.com"> Facebook</a></li>
-                            <li><a href="instagram.com"> Instagram </a></li>
+                            <li><a href="leorobinsonvienna@gmail.com"> Gmail </a></li>
+                            <li><a href="https://www.linkedin.com/in/leo-robinson-437a46283/"> LinkedIn</a></li>
+                            <li><a href="https://github.com/leorobinson11/"> GitHub </a></li>
+                            <li><a href="https://www.instagram.com/rleo228/?hl=en"> Instagram </a></li>
                         </ul>
                     </div>
                 </div>
