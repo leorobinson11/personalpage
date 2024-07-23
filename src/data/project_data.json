@@ -1,12 +1,20 @@
-[{ 
-    "title": "DynoMol", 
-    "images": ["DynoMol.png"], 
-    "description": "A molecular dynamics programm writen from scratch. Simulates the movements the internal structures of simple hydrocarbons.",
-    "link": "https://github.com/leorobinson11/DynaMol"
-},
-{ 
-    "title": "StealthNav", 
-    "images": ["StealthNav.png"], 
-    "description": "A navigation tool that lets the user find the shortest route without being sighted by security cameras.",
-    "link": ""
-}]
+[
+    { 
+        "title": "DynoMol", 
+        "images": ["DynoMol.png"], 
+        "description": "A molecular dynamics programm writen from scratch. Simulates the movements the internal structures of simple hydrocarbons.",
+        "link": "https://github.com/leorobinson11/DynaMol"
+    },
+    { 
+        "title": "StealthNav", 
+        "images": ["StealthNav.png"], 
+        "description": "A navigation tool that lets the user find the shortest route without being sighted by security cameras.",
+        "link": ""
+    },
+    {
+        "title": "Chess Interface",
+        "images": ["chess.png"],
+        "description": "This one speaks for itself. I wanted to chalange myself and create a chess Interface and programm the game logic with no external modules.",
+        "link": "https://github.com/leorobinson11/ChessInterface"
+    }
+]

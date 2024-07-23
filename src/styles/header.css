@@ -24,7 +24,7 @@
 .nav-link {
     color: white;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 23px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,4 +38,14 @@
 .nav-link:hover {
     background-color: #969ea1;
     transform: scale(1.1);
+}
+
+@media (max-width: 700px) {
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-link {
+        margin-top: 10px;
+    }
 }

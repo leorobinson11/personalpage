@@ -2,17 +2,8 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../styles/portfolio.css';
 import projectdata from '../data/project_data.json'
-import { FaGithub } from 'react-icons/fa';
 
-const GithubLogo = ({ url }) => {
-    return (
-        <a href={url} target="_blank" rel="noopener noreferrer" class="githublink">
-          <FaGithub class="logo"/>
-        </a>
-      );
-};
-
-const Project = ({ title, image, description, link, index }) => {
+const Project = ({ title, image, description, index }) => {
     const navigate = useNavigate();
     const handleClick = () => {
         navigate('projects/'+index);
@@ -26,7 +17,6 @@ const Project = ({ title, image, description, link, index }) => {
             <div class="prodject-data">
                 <h2 className="project-title"> {title} </h2>
                 <p className="project-description"> {description} </p>
-                <GithubLogo url={link} />
             </div>
         </div>
     );
@@ -41,7 +31,6 @@ const Portfolio = () => {
                     title={project.title}
                     image={project.images[0]}
                     description={project.description}
-                    link={project.link}
                     index={index}
                 />
             ))}

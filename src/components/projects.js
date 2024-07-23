@@ -3,8 +3,16 @@ import { useParams } from 'react-router-dom';
 import '../styles/projects.css';
 
 import image from '../images/DynoMol.png'
-
 import projectdata from '../data/project_data.json'
+import { FaGithub } from 'react-icons/fa';
+
+const GithubLogo = ({ url }) => {
+    return (
+        <a href={url} target="_blank" rel="noopener noreferrer" class="githublink">
+          <FaGithub class="logo" style={{color:"white"}}/>
+        </a>
+      );
+};
 
 const Projects = () => {
   const { index } = useParams();
@@ -24,6 +32,9 @@ const Projects = () => {
           <a href="/" class="return-home">
             <span class="arrow">&larr;</span> <span> Return Home </span>
           </a>
+          <div class="logo-container">
+            <GithubLogo url={projectdata[index].link} />
+          </div>
         </div>
       </div>
     </body>

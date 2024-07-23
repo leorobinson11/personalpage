@@ -3,6 +3,7 @@
     padding: 40px;
     font-size: 25px;
     color: white;
+    height: 400px;
 }
 
 .socials-container {
@@ -11,6 +12,7 @@
     justify-content: center;
     padding: 40px;
 }
+
 
 .socials-item {
     background-color: rgb(215, 210, 210);
@@ -23,8 +25,17 @@
     flex-direction: column;
     justify-content: center;
     margin: 25px;
+
+    transition: height 0.3s, width 0.3s;
 }
 
-.nav-item:hover {
-    background-color: white;
+.socials-item:hover {
+    height: 220px;
+    width: 200px;
+}
+
+
+.socials-logo {
+    font-size: 75px;
+    color: rgb(0, 0, 0);
 }
