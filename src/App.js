@@ -8,6 +8,7 @@ import Portfolio from './components/portfolio';
 import Socials from './components/socials';
 import Projects from "./components/projects";
 
+
 const Home = () => {
   return (
     <main className="App">
