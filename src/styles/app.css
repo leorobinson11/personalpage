@@ -55,17 +55,12 @@ section {
     padding: 200px;
   }
 
-  .solarsystem {
-    transform: translateX(0); /* Reset transform for small screens */
-    margin-bottom: 20px; /* Add margin for spacing */
-  }
-
   .banner-title {
     position: static; /* Remove absolute positioning */
     margin-top: 20px; /* Add margin for spacing */
     text-align: center; /* Center text alignment */
     width: 300px;
-    height: 350px;
+    height: 300px;
   }
 
   .banner-title h1 {

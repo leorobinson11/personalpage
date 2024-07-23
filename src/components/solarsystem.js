@@ -10,9 +10,16 @@ import '../styles/solarsystem.css'
 const Planet = ({angle, name}) => {
   const imageRef = useRef(null);
 
-  useEffect(() => {
+  useEffect(() => {    
     const image = imageRef.current;
-    const radiusX = 280;
+    var radiusX;
+    if (window.innerWidth < 1200) {
+      radiusX = 220;
+    } else {
+      radiusX = 280;
+    }
+ 
+    
     const radiusY = 80;
     const centerX = 180; 
     const centerY = 175; 
