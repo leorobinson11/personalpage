@@ -29,7 +29,7 @@ const Projects = () => {
         <div class="text-container">
           <h1 class="title"> {projectdata[index].title} </h1>
           <p class="description"> {projectdata[index].description} </p>
-          <a href="/" class="return-home">
+          <a href="/personalpage" class="return-home">
             <span class="arrow">&larr;</span> <span> Return Home </span>
           </a>
           <div class="logo-container">
