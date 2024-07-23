@@ -36,7 +36,7 @@ const Home = () => {
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/personalpage">
       <Routes>
           <Route index element={<Home />} />
           <Route path="projects/:index" element={<Projects />} />
