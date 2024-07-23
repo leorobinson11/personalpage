@@ -1,8 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import '../styles/projects.css';
-
-import image from '../images/DynoMol.png'
 import projectdata from '../data/project_data.json'
 import { FaGithub } from 'react-icons/fa';
 
