@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.dcf5d151.css",
-    "main.js": "/static/js/main.5e4418f8.js",
-    "static/media/StealthNav.png": "/static/media/StealthNav.76f0162e6437fe288de6.png",
-    "static/media/DynoMol.png": "/static/media/DynoMol.9b99d61e8a795d5c9e9e.png",
-    "static/media/chess.png": "/static/media/chess.6b1536e679187a6118d1.png",
-    "index.html": "/index.html",
-    "main.dcf5d151.css.map": "/static/css/main.dcf5d151.css.map",
-    "main.5e4418f8.js.map": "/static/js/main.5e4418f8.js.map"
+    "main.css": "/personalpage/static/css/main.dcf5d151.css",
+    "main.js": "/personalpage/static/js/main.b4419af9.js",
+    "static/media/StealthNav.png": "/personalpage/static/media/StealthNav.76f0162e6437fe288de6.png",
+    "static/media/DynoMol.png": "/personalpage/static/media/DynoMol.9b99d61e8a795d5c9e9e.png",
+    "static/media/chess.png": "/personalpage/static/media/chess.6b1536e679187a6118d1.png",
+    "index.html": "/personalpage/index.html",
+    "main.dcf5d151.css.map": "/personalpage/static/css/main.dcf5d151.css.map",
+    "main.b4419af9.js.map": "/personalpage/static/js/main.b4419af9.js.map"
   },
   "entrypoints": [
     "static/css/main.dcf5d151.css",
-    "static/js/main.5e4418f8.js"
+    "static/js/main.b4419af9.js"
   ]
 }
