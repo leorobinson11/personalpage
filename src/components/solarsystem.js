@@ -7,25 +7,39 @@ import Mars from '../images/mars.png'
 import Mercury from '../images/mercury.png'
 import '../styles/solarsystem.css'
 
+
 const Planet = ({angle, name}) => {
   const imageRef = useRef(null);
 
   useEffect(() => {    
     const image = imageRef.current;
     var radiusX;
-    if (window.innerWidth < 1200) {
-      radiusX = 220;
-    } else {
-      radiusX = 280;
-    }
- 
-    
-    const radiusY = 80;
-    const centerX = 180; 
-    const centerY = 175; 
+    var radiusY;
+
+    var centerX;
+    var centerY;
+
+
     const speed = 0.01;
 
     const animate = () => {
+      if (window.innerWidth < 700) {
+        radiusX = 150;
+        radiusY = 150;
+        centerX = 130; 
+        centerY = 125; 
+      } else if (window.innerWidth < 1200) {
+        radiusX = 280;
+        radiusY = 160;
+        centerX = 180; 
+        centerY = 175; 
+      } else {
+        radiusX = 280;
+        radiusY = 80;
+        centerX = 180; 
+        centerY = 175; 
+      }
+
       angle += speed;
       const x = centerX + radiusX * Math.cos(angle);
       const y = centerY + radiusY * Math.sin(angle);

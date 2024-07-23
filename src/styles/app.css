@@ -21,11 +21,6 @@ section {
   text-align: left;
 }
 
-.solarsystem {
-  position: absolute;
-  transform: translateX(290px);
-}
-
 .banner-title {
   position: absolute;
   left: 90px;
@@ -57,7 +52,7 @@ section {
 
   .banner-title {
     position: static; /* Remove absolute positioning */
-    margin-top: 20px; /* Add margin for spacing */
+    margin-top: 0px; /* Add margin for spacing */
     text-align: center; /* Center text alignment */
     width: 300px;
     height: 300px;
@@ -66,5 +61,26 @@ section {
   .banner-title h1 {
     font-size: 50px; /* Adjust font size */
     padding-bottom: 80px;
+  }
+}
+
+@media (max-width: 700px) {
+  section  {
+    padding: 0;
+  }
+
+  #banner {
+    margin: 0;
+  }
+
+  .banner-title {
+    position: static; /* Remove absolute positioning */
+    margin-top: 0px; /* Add margin for spacing */
+    text-align: center; /* Center text alignment */
+    width: 200px;
+    height: 200px;
+  }
+  .banner-title h1 {
+    font-size: 35px;
   }
 }
