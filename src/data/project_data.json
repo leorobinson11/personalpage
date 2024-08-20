@@ -6,9 +6,9 @@
         "link": "https://github.com/leorobinson11/DynaMol"
     },
     { 
-        "title": "StealthNav", 
-        "images": ["StealthNav.png"], 
-        "description": "A navigation tool that lets the user find the shortest route without being sighted by security cameras.",
+        "title": "QLHunter", 
+        "images": ["QLHunter.png"], 
+        "description": "A Cyber Security Tool for manual pentesting of graphql apis.",
         "link": ""
     },
     {
