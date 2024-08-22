@@ -1,20 +1,44 @@
 [
     { 
         "title": "DynoMol", 
-        "images": ["DynoMol.png"], 
+        "images": ["projects/dynomol/DynoMol.png"], 
         "description": "A molecular dynamics programm writen from scratch. Simulates the movements the internal structures of simple hydrocarbons.",
-        "link": "https://github.com/leorobinson11/DynaMol"
+        "link": "https://github.com/leorobinson11/DynaMol",
+        "slides": [
+            {
+                "title": "DynoMol", 
+                "image":"projects/dynomol/DynoMol.png",
+                "description":"something1"
+            },
+            {
+                "title": "DynoMol", 
+                "image":"projects/dynomol/DynoMol.png",
+                "description":"something2"
+            }
+        ]
     },
     { 
         "title": "QLHunter", 
         "images": ["QLHunter.png"], 
         "description": "A Cyber Security Tool for manual pentesting of graphql apis.",
-        "link": ""
+        "link": "",
+        "slides": [
+            {
+                "image":"image1.png",
+                "description":"something2"
+            }
+        ]
     },
     {
         "title": "Chess Interface",
         "images": ["chess.png"],
         "description": "This one speaks for itself. I wanted to chalange myself and create a chess Interface and programm the game logic with no external modules.",
-        "link": "https://github.com/leorobinson11/ChessInterface"
+        "link": "https://github.com/leorobinson11/ChessInterface",
+        "slides": [
+            {
+                "image":"image1.png",
+                "description":"something2"
+            }
+        ]
     }
 ]
