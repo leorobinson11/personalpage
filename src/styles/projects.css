@@ -15,7 +15,9 @@
 
 .carousel-container {
     width: 100%; 
-    max-width: 950px; 
+    max-width: 1100px; 
+    background-color: rgb(73, 70, 70);
+    padding: 0px;
 }
 
 .slide {
@@ -24,33 +26,71 @@
     align-items: center;
     height: 500px; 
     width: fit-content;
-    position: relative; /* Allow for absolute positioning of description */
+    position: relative; 
+    padding-inline: 150px;
 }
 
-.project-image {
-    max-height: 70%;
-    max-width: 100%;
+.image-container {
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.slide-image {
     object-fit: contain;
-    border-radius: 0;
+    max-width: 110%;
 }
 
-/* Description styling */
 .description {
-    opacity: 0; /* Initially hidden */
-    transform: translateY(20px); /* Start with a slight downward offset */
-    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition */
-    position: absolute;
-    bottom: 10px; /* Positioned at the bottom of the slide */
-    text-align: center;
-    width: 90%; /* Slight padding from the edges */
     color: white;
-    background: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background */
-    padding: 10px;
-    border-radius: 8px;
+    font-size: 20px;
+    padding: 60px;
+    transform: translateX(-60px);
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-/* Active slide description animation */
 .slide.active .description {
-    opacity: 1; /* Fade in */
-    transform: translateY(0); /* Move to normal position */
+    opacity: 1; 
+    transform: translateX(0); 
+}
+
+.link-bar {
+    margin: 25px;
+}
+
+.git-logo {
+    font-size: 60px;
+}  
+
+@media (max-width: 900px) {
+    .slide {
+        flex-direction: column;
+        padding-inline: 0; 
+    }
+
+    .image-container {
+        width: 100%;
+        height: 60vh; 
+        position: relative; 
+        justify-content: center;
+    }
+
+    .slide-image {
+        width: 100%; 
+        height: 100%; 
+    }
+
+    .description {
+        transform: translateY(60px);
+        font-size: 18px;
+        text-align: center; 
+        padding: 15px; 
+    }
+
+    .react-multi-carousel-arrow {
+        z-index: 10; 
+    }
 }

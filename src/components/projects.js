@@ -1,7 +1,7 @@
 import { React, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import projectdata from '../data/project_data.json'
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaTheRedYeti } from 'react-icons/fa';
 import '../styles/projects.css';
 
 import Carousel from "react-multi-carousel";
@@ -11,53 +11,18 @@ import "react-multi-carousel/lib/styles.css";
 const GithubLogo = ({ url }) => {
     return (
         <a href={url} target="_blank" rel="noopener noreferrer" class="githublink">
-          <FaGithub class="logo" style={{color:"white"}}/>
+          <FaGithub class="git-logo" style={{color:"white"}}/>
         </a>
       );
 };
 
-/*
-const Projects = () => {
-  const { index } = useParams();
-
-  // Here you would fetch the project details using the projectId
-  // For this example, we'll just display the projectId
-  return (
-    <body class="project-body">
-      <div class="project-container">
-        <div class="image-container">
-          
-          <img src={require(`../images/${projectdata[index].images[0]}`)} alt="Project Image" class="project-image" />
-        </div>
-        <div class="text-container">
-          <h1 class="title"> {projectdata[index].title} </h1>
-          <p class="description"> {projectdata[index].description} </p>
-          <a href="/personalpage" class="return-home">
-            <span class="arrow">&larr;</span> <span> Return Home </span>
-          </a>
-          <div class="logo-container">
-            <GithubLogo url={projectdata[index].link} />
-          </div>
-        </div>
-      </div>
-    </body>
-  );
-};
-*/
-/*
-        <div class="image-container">
-          <img src={require(`../images/${slide.image}`)} alt="Project Image" class="project-image" />
-        </div>
-        <div class="description">
-          <p> {slide.description} </p>
-        </div>
-*/
-
 const Slide = ({ slide, isActive }) => {
   return (
-    <div className={`slide ${isActive ? 'active' : ''}`}>
-      <img src={require(`../images/${slide.image}`)} alt="Project Image" class="project-image" />
-      <div className="description">
+    <div class={`slide ${isActive ? 'active' : ''}`}>
+      <div class="image-container">
+        <img src={require(`../images/${slide.image}`)} alt="Project Image" class="slide-image" />
+      </div>
+      <div class="description">
         {slide.description}
       </div>
     </div>
@@ -92,16 +57,23 @@ const Projects = () => {
   return (
     <div class="project-section">
       <h1 id="project-title"> {data.title} </h1>
-      <div className="carousel-container">
-        <Carousel 
-          responsive={responsive}
-          afterChange={(previousSlide, { currentSlide }) => handleSlideChange(currentSlide)}
-        >
-          {data.slides.map((slide, idx) => (
-            <Slide key={idx} slide={slide} isActive={idx === activeSlide}/>
-          ))}
-        </Carousel>
-      </div>
+        <div className="carousel-container">
+          <Carousel 
+            responsive={responsive}
+            arrows={true} 
+            swipeable={true}
+            draggable={true}
+            afterChange={(previousSlide, { currentSlide }) => handleSlideChange(currentSlide)}
+          >
+            {data.slides.map((slide, idx) => (
+              <Slide key={idx} slide={slide} isActive={idx === activeSlide}/>
+            ))}
+          </Carousel>
+        </div>
+        <div class="link-bar">
+          <GithubLogo url={data.link} />
+        </div>
+          
     </div>
   );
 };

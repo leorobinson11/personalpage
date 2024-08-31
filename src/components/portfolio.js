@@ -29,7 +29,7 @@ const Portfolio = () => {
                 <Project
                     key={index}
                     title={project.title}
-                    image={project.images[0]}
+                    image={project.coverimage}
                     description={project.description}
                     index={index}
                 />
