@@ -1,7 +1,7 @@
 import { React, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import projectdata from '../data/project_data.json'
-import { FaGithub, FaTheRedYeti } from 'react-icons/fa';
+import { FaGithub, FaHome } from 'react-icons/fa';
 import '../styles/projects.css';
 
 import Carousel from "react-multi-carousel";
@@ -10,11 +10,20 @@ import "react-multi-carousel/lib/styles.css";
 
 const GithubLogo = ({ url }) => {
     return (
-        <a href={url} target="_blank" rel="noopener noreferrer" class="githublink">
+        <a href={url} target="_blank" rel="noopener noreferrer">
           <FaGithub class="git-logo" style={{color:"white"}}/>
         </a>
       );
 };
+
+const HomeIcon = () => {
+  return (
+      <a href="/personalpage" class="circular-icon">
+          <FaHome class="home-logo" />
+      </a>
+  );
+};
+
 
 const Slide = ({ slide, isActive }) => {
   return (
@@ -72,6 +81,7 @@ const Projects = () => {
         </div>
         <div class="link-bar">
           <GithubLogo url={data.link} />
+          <HomeIcon />
         </div>
           
     </div>

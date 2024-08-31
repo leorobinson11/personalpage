@@ -59,11 +59,30 @@
 
 .link-bar {
     margin: 25px;
+    display: flex;
+    flex-direction: row;
 }
 
 .git-logo {
     font-size: 60px;
 }  
+
+.circular-icon {
+    width: 60px; 
+    height: 60px;
+    background-color: #fff; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px; 
+    color:#282c34;
+}
+
+.circular-icon, .git-logo {
+    margin-inline: 20px;
+}
+
 
 @media (max-width: 900px) {
     .slide {
