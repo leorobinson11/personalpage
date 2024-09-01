@@ -11,7 +11,7 @@ import Projects from "./components/projects";
 
 const Home = () => {
   return (
-    <main className="App">
+    <main class="App">
       <section id="banner">
           <div class="banner-title">
             <h1> Hello, I'm <span style={{color:"red"}}>Leo</span>. <br/> <TypingEffect text={"I'm a developer."}/> </h1>

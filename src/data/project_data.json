@@ -1,43 +1,65 @@
 [
     { 
         "title": "DynoMol", 
-        "coverimage": "projects/dynomol/DynoMol.png", 
-        "description": "A molecular dynamics programm writen from scratch. Simulates the movements the internal structures of simple hydrocarbons.",
+        "coverimage": "projects/dynomol/change.png", 
+        "description": "A molecular dynamics programm writen from scratch. Simulates the movements the internal structures of simple hydrocarbons",
         "link": "https://github.com/leorobinson11/DynaMol",
         "slides": [
             {
-                "title": "DynoMol", 
-                "image":"projects/dynomol/DynoMol.png",
-                "description":"something1"
+                "image":"projects/dynomol/change.png",
+                "description":"Dynamol is a molecular mechanics program with the main function of finding the lowest energy configurations carbohydrate molecules"
             },
             {
-                "title": "DynoMol", 
-                "image":"projects/dynomol/DynoMol.png",
-                "description":"something2"
+                "image":"projects/dynomol/Energies.png",
+                "description":"The program enables the tracking of the energies during the atoms movements through the molecules configurationchange"
+            },
+            {
+                "image":"projects/dynomol/terminal.png",
+                "description":"Dynamol is a terminal tool and allows the user to adjust simulation paramaters such a stepsize and number"
+            },
+            {
+                "image":"projects/dynomol/Flowchart.png",
+                "description":"The Newton rapson method is used, approximating the atoms as classical bodies simulating their mothements by calculating the forces on each atom"
+            },
+            {
+                "image":"projects/dynomol/C2H6.png",
+                "description":"While simulating the internal movements the lowest energy configuration is saved and output as the optimal shape"
             }
         ]
     },
     { 
         "title": "QLHunter",
         "coverimage": "projects/qlhunter/QLHunter.png", 
-        "description": "A Cyber Security Tool for manual pentesting of graphql apis.",
-        "link": "",
+        "description": "A Cyber Security Tool for manual pentesting of graphql apis",
+        "link": "https://github.com/leorobinson11/qlhunter",
         "slides": [
             {
                 "image":"projects/qlhunter/QLHunter.png",
-                "description":"something2"
+                "description":"QLHunter is a cyber security tool used to automize recon and manual testing of graphql endpoints"
+            },
+            {
+                "image":"projects/qlhunter/sitemap.png",
+                "description":"Automatic subdomain enumeration aswell as graphql endpoint fuzzing"
+            },
+            {
+                "image":"projects/qlhunter/schema.png",
+                "description":"Enables easy Introspection and schema vizualization"
+            },
+            {
+                "image":"projects/qlhunter/fingerprint.png",
+                "description":"Utilizing inbuild external tools for port scanning and technology fingerprinting"
             }
         ]
     },
     {
         "title": "Chess Interface",
         "coverimage": "projects/chessinterface/chess.png",
-        "description": "This one speaks for itself. I wanted to chalange myself and create a chess Interface and programm the game logic with no external modules.",
+        "description": "This one speaks for itself. I wanted to chalange myself and create a chess Interface and programm the game logic with no external modules",
         "link": "https://github.com/leorobinson11/ChessInterface",
         "slides": [
             {
                 "image":"projects/chessinterface/chess.png",
-                "description":"something2"
+                "description":"This one speaks for itself. I wanted to chalange myself and create a chess Interface and programm the game logic with no external modules"
             }
         ]
     }
