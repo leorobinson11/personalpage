@@ -1,19 +1,26 @@
 {
   "files": {
     "main.css": "/personalpage/static/css/main.012c19c9.css",
-    "main.js": "/personalpage/static/js/main.71eb8983.js",
+    "main.js": "/personalpage/static/js/main.e9dd3008.js",
     "static/media/QLHunter.png": "/personalpage/static/media/QLHunter.5782fb80c9dade0708d6.png",
-    "static/media/DynoMol.png": "/personalpage/static/media/DynoMol.9b99d61e8a795d5c9e9e.png",
+    "static/media/Energies.png": "/personalpage/static/media/Energies.5b7c49af596675226231.png",
+    "static/media/fingerprint.png": "/personalpage/static/media/fingerprint.be1e019e810e4a071327.png",
+    "static/media/change.png": "/personalpage/static/media/change.42275015ac31021f4705.png",
+    "static/media/terminal.png": "/personalpage/static/media/terminal.9b99d61e8a795d5c9e9e.png",
     "static/media/chess.png": "/personalpage/static/media/chess.6b1536e679187a6118d1.png",
+    "static/media/schema.png": "/personalpage/static/media/schema.720cb16b51187cf795f0.png",
+    "static/media/Flowchart.png": "/personalpage/static/media/Flowchart.c104c0954eea976e588b.png",
+    "static/media/sitemap.png": "/personalpage/static/media/sitemap.8f942f3779ef6ac615bd.png",
+    "static/media/C2H6.png": "/personalpage/static/media/C2H6.7a0731b31caeb151d3bc.png",
     "static/media/revicons.eot": "/personalpage/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/personalpage/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/personalpage/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/personalpage/index.html",
     "main.012c19c9.css.map": "/personalpage/static/css/main.012c19c9.css.map",
-    "main.71eb8983.js.map": "/personalpage/static/js/main.71eb8983.js.map"
+    "main.e9dd3008.js.map": "/personalpage/static/js/main.e9dd3008.js.map"
   },
   "entrypoints": [
     "static/css/main.012c19c9.css",
-    "static/js/main.71eb8983.js"
+    "static/js/main.e9dd3008.js"
   ]
 }
