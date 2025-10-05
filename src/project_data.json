@@ -32,10 +32,10 @@
         "imagepath": "projects/chess/"
     },
     {
-        "title": "Buisness Page",
-        "text": "This project is a modern business website built with ReactJs, featuring a sleek 3D animation to enhance user engagement and a responsive contact form for customer inquiries. The site is optimized for SEO to ensure strong search engine visibility.",
-        "link": "https://github.com/leorobinson11/ChessInterface",
-        "tags": ["ReactJS", "SEO", "Buisness", "Animation"],
+        "title": "Company Homepage/Ecommerce Store",
+        "text": "Build for a client, I used ReactJs for the frontend, and NodeJs with a sqlilite server in the backend. The website supports paypall payment, aswell as a login for managment of products and orders in the admin pannel.",
+        "link": "https://www.herzdoktor.net/homepage",
+        "tags": ["ReactJS", "NodeJS", "SQL", "Login Systems", "Paypall", "SEO", "Ecommerce", "Animation"],
         "imagenumber": 1,
         "imagepath": "projects/buissness/"
     },
