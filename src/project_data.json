@@ -24,20 +24,20 @@
         "imagepath": "projects/graphql/"
     },
     {
+        "title": "Company Homepage/Ecommerce Store",
+        "text": "Build for a client, I used ReactJs for the frontend, and NodeJs with a sqlilite server in the backend. The website supports paypall payment, aswell as a login for managment of products and orders in the admin pannel.",
+        "link": "https://www.herzdoktor.net/homepage",
+        "tags": ["ReactJS", "NodeJS", "SQL", "Login Systems", "Paypall", "SEO", "Ecommerce", "Animation"],
+        "imagenumber": 4,
+        "imagepath": "projects/buissness/"
+    },
+    {
         "title": "Chess interface",
         "text": "A fully functional, self-made implementation of the classic game of chess. Featuring intuitive controls, legal move validation, turn-based logic, and visual highlights for selected pieces and valid moves. Built from scratch.",
         "link": "https://github.com/leorobinson11/ChessInterface",
         "tags": ["JS", "HTML", "CSS", "Chess"],
         "imagenumber": 1,
         "imagepath": "projects/chess/"
-    },
-    {
-        "title": "Company Homepage/Ecommerce Store",
-        "text": "Build for a client, I used ReactJs for the frontend, and NodeJs with a sqlilite server in the backend. The website supports paypall payment, aswell as a login for managment of products and orders in the admin pannel.",
-        "link": "https://www.herzdoktor.net/homepage",
-        "tags": ["ReactJS", "NodeJS", "SQL", "Login Systems", "Paypall", "SEO", "Ecommerce", "Animation"],
-        "imagenumber": 1,
-        "imagepath": "projects/buissness/"
     },
     {
         "title": "Polynomial Interpolation/Fitting",
