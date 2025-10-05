@@ -30,8 +30,8 @@ const Portfolio = () => {
         { title: "Stellar Symulation", img: Stellar},
         { title: "Molecular Dynamics", img: MD},
         { title: "Graphql Security Tool", img: Graphql },
-        { title: "Chess interface", img: Chess },
         { title: "Buisness Homepage", img: Buisness },
+        { title: "Chess interface", img: Chess },
         { title: "Polynomial Interpolation", img: Polynomial }
         
     ]

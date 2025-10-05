@@ -57,7 +57,6 @@ const Decription = () => {
                 <ul> 
                     <li> Programmer for the Austrian Bundesheer - Project Schutzschild </li>
                     <li> Freelance work in a multiple tech related areas </li>
-                    <li> Co-founder webdevopment of a agency </li>
                 </ul>
             </div>
                
