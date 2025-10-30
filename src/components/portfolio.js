@@ -7,7 +7,7 @@ import MD from '../images/projects/molecular-dynamics/1.png'
 import Graphql from '../images/projects/graphql/1.png'
 import Chess from '../images/projects/chess/1.png'
 import Buisness from '../images/projects/buissness/1.png'
-import Polynomial from '../images/projects/polynomial/1.png'
+import Mechanics from '../images/projects/classicalmechanic/1.png'
 
 
 const ProjectCard = ({ title, img, index }) => {
@@ -29,11 +29,10 @@ const Portfolio = () => {
     const allprojects = [
         { title: "Stellar Symulation", img: Stellar},
         { title: "Molecular Dynamics", img: MD},
+        { title: "Classical Mechanic Symulation", img: Mechanics },
         { title: "Graphql Security Tool", img: Graphql },
         { title: "Buisness Homepage", img: Buisness },
         { title: "Chess interface", img: Chess },
-        { title: "Polynomial Interpolation", img: Polynomial }
-        
     ]
 
     const [showAll, setShowAll] = useState(false);

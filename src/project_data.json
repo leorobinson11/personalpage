@@ -16,6 +16,14 @@
         "imagepath": "projects/molecular-dynamics/"
     },
     {
+        "title": "Contraint based classical mechanics Simulation",
+        "text": "In this project I implemented an iterative constraint-based solver to simulate the non-overlapping dynamics of multiple convex polygons. To this I utilized the Projective Gauss-Seidel. To detect collisions between polygons I took advantage of the convexity of the shape and implemented an efficient algorithm based on the separating hyperplane theorem. I implemented all the computational geometry involved myself.",
+        "link": "",
+        "tags": ["Projecive Gaus Seidel", "hyperplane separation theorem", "Iterative Dynamics", "Constrained Optimization", "Classical mechanics", "Convex Polygons"],
+        "imagenumber": 1,
+        "imagepath": "projects/classicalmechanic/"
+    },
+    {
         "title": "Graphql Security Testing Tool",
         "text": "My Graphql Security testing tool combines a number of tools with a ReactJs frontend, NodeJs backend, aswell as my own graphql-sitemaper. The tools sitemap crawls and fuzzes the website for subdomains, enuemrating graphql endpoints and sorts them by subdomain. The sitemap tool visualizes the apis schema via the SugiyamaSort algorithm.  The info tool performs portskanns aswell as a fingerprint of the apis technology and default settings",
         "link": "https://github.com/leorobinson11/qlhunter/tree/main",
@@ -38,13 +46,5 @@
         "tags": ["JS", "HTML", "CSS", "Chess"],
         "imagenumber": 1,
         "imagepath": "projects/chess/"
-    },
-    {
-        "title": "Polynomial Interpolation/Fitting",
-        "text": "This project implements three core techniques for polynomial interpolation and approximation: Lagrange interpolation, which constructs a global polynomial that exactly fits a given set of data points; Newton's divided differences, a recursive method that builds the interpolant efficiently and is well-suited for incremental data; and Least Squares Approximation, which fits a polynomial to data by minimizing the overall squared error, useful when dealing with noisy or overdetermined datasets.",
-        "link": "https://github.com/leorobinson11/polynomial-interpolation",
-        "tags": ["ReactJS", "SEO", "Buisness", "Least Squares", "Linear Algebra", "Nummericsnumerical Analysis"],
-        "imagenumber": 3,
-        "imagepath": "projects/polynomial/"
     }
 ]
