@@ -1,5 +1,13 @@
 [
     {
+        "title": "Correlated Clifford Error Simulation",
+        "text": "Using qecsim, I implemented custom spatially correlated error models that simulate the spread of errors between neighboring qubits in the five-qubit code. I implemented these models for both the bit-flip and phase-flip error channels and compared their effects by simulating the logical error rate over a range of physical error probabilities.",
+        "link": "https://github.com/leorobinson11/ChessInterface",
+        "tags": ["Quantum Error Correction", "Stabaliser Circuits", "5-Qbit Code"],
+        "imagenumber": 2,
+        "imagepath": "projects/correlated_errors/"
+    },
+    {
         "title": "Stellar Simulation",
         "text": "In my stellar nebular simulation I use a method called the Fastmultipole method (FMM) to speed up the calculation of the N-Body pairwise interactions. In FMM a quadtree is used to partition the space depending particle densities of the specific area. By approxiamting the force on a particle via local tailorexpansion of all of the multipole moments of the quadtree nodes the calculation only takes linear logarithmic time.  To calculate the bodies trajectories I used synchronized leapfrog integration.",
         "link": "https://github.com/leorobinson11/fmmStelarsymulation",
@@ -38,13 +46,5 @@
         "tags": ["ReactJS", "NodeJS", "SQL", "Login Systems", "Paypall", "SEO", "Ecommerce", "Animation"],
         "imagenumber": 4,
         "imagepath": "projects/buissness/"
-    },
-    {
-        "title": "Chess interface",
-        "text": "A fully functional, self-made implementation of the classic game of chess. Featuring intuitive controls, legal move validation, turn-based logic, and visual highlights for selected pieces and valid moves. Built from scratch.",
-        "link": "https://github.com/leorobinson11/ChessInterface",
-        "tags": ["JS", "HTML", "CSS", "Chess"],
-        "imagenumber": 1,
-        "imagepath": "projects/chess/"
     }
 ]
