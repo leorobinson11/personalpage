@@ -1,5 +1,13 @@
 [
     {
+        "title": "Quantum Gaussian State Package",
+        "text": "The package enables efficient simulation of Gaussian states, unitaries, and CPTP channels by tracking the first and second moments of the states, symplectic matrices for the unitaries, and matrix representations of the channels. Furthermore, homodyne and heterodyne measurements are supported. Relevant decompositions, such as the Bloch–Messiah and Williamson decompositions, are also available.",
+        "link": "https://github.com/leorobinson11/Gaussian_State_Simulation",
+        "tags": ["Gaussian-States", "CV-Quantum information", "Symplectic", "CPTP-Channels"],
+        "imagenumber": 7,
+        "imagepath": "projects/gaussian/"
+    },
+    {
         "title": "Correlated Clifford Error Simulation",
         "text": "Using qecsim, I implemented custom spatially correlated error models that simulate the spread of errors between neighboring qubits in the five-qubit code. I implemented these models for both the bit-flip and phase-flip error channels and compared their effects by simulating the logical error rate over a range of physical error probabilities.",
         "link": "https://github.com/leorobinson11/ChessInterface",
@@ -30,14 +38,6 @@
         "tags": ["Projecive Gaus Seidel", "hyperplane separation theorem", "Iterative Dynamics", "Constrained Optimization", "Classical mechanics", "Convex Polygons"],
         "imagenumber": 1,
         "imagepath": "projects/classicalmechanic/"
-    },
-    {
-        "title": "Graphql Security Testing Tool",
-        "text": "My Graphql Security testing tool combines a number of tools with a ReactJs frontend, NodeJs backend, aswell as my own graphql-sitemaper. The tools sitemap crawls and fuzzes the website for subdomains, enuemrating graphql endpoints and sorts them by subdomain. The sitemap tool visualizes the apis schema via the SugiyamaSort algorithm.  The info tool performs portskanns aswell as a fingerprint of the apis technology and default settings",
-        "link": "https://github.com/leorobinson11/qlhunter/tree/main",
-        "tags": ["Graphql", "JS", "React", "NodeJS", "Fullstack", "API", "Websecurity"],
-        "imagenumber": 4,
-        "imagepath": "projects/graphql/"
     },
     {
         "title": "Company Homepage/Ecommerce Store",

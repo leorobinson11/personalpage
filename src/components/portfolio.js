@@ -4,7 +4,7 @@ import "../styles/portfolio.css"
 
 import Stellar from '../images/projects/stellarsymulation/1.png'
 import MD from '../images/projects/molecular-dynamics/1.png'
-import Graphql from '../images/projects/graphql/1.png'
+import Gaussian from '../images/projects/gaussian/1.png'
 import QES from '../images/projects/correlated_errors/1.png'
 import Buisness from '../images/projects/buissness/1.png'
 import Mechanics from '../images/projects/classicalmechanic/1.png'
@@ -27,11 +27,12 @@ const ProjectCard = ({ title, img, index }) => {
 const Portfolio = () => {
 
     const allprojects = [
+        { title: "Quantum Gaussians", img: Gaussian },
         { title: "Correlated Quantum Error Simulation", img: QES },
         { title: "Stellar Symulation", img: Stellar},
         { title: "Molecular Dynamics", img: MD},
         { title: "Classical Mechanic Simulation", img: Mechanics },
-        { title: "Graphql Security Tool", img: Graphql },
+        
         { title: "Buisness Homepage", img: Buisness }
     ]
 
